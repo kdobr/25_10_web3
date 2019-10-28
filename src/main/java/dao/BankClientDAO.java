@@ -1,13 +1,10 @@
 package dao;
 
-import com.sun.deploy.util.SessionState;
-import exception.DBException;
 import model.BankClient;
-import service.executor.Executor;
+import dao.executor.Executor;
 
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 public class BankClientDAO {

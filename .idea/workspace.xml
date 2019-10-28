@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa7a39cc-49be-465c-b61a-b54af8a170df" name="Default" comment="" />
+    <list default="true" id="fa7a39cc-49be-465c-b61a-b54af8a170df" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0388b9aa-fcb8-4398-9d48-4656ca6c37de.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0388b9aa-fcb8-4398-9d48-4656ca6c37de/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/def25132-0ee4-475f-a140-55931f143a7b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/def25132-0ee4-475f-a140-55931f143a7b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/BankClientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/BankClientDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/executor/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/executor/Executor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/executor/ResultHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/executor/ResultHandler.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +54,9 @@
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Web3" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -54,6 +66,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -62,6 +77,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Sh2Re1UEuc6FEgFchK2E5gu24E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql.8&#10;mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -216,12 +232,32 @@
       <workItem from="1562518645981" duration="1087000" />
       <workItem from="1562570629416" duration="18548000" />
       <workItem from="1562922368587" duration="6146000" />
-      <workItem from="1572001502279" duration="54945000" />
+      <workItem from="1572001502279" duration="56128000" />
+      <workItem from="1572161617293" duration="1123000" />
+      <workItem from="1572163365586" duration="7000" />
+      <workItem from="1572164204480" duration="384000" />
+      <workItem from="1572166307570" duration="10000" />
+      <workItem from="1572195703121" duration="1890000" />
+      <workItem from="1572247327862" duration="808000" />
+      <workItem from="1572267444765" duration="1099000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
