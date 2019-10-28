@@ -63,8 +63,8 @@ public class BankClient {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         BankClient that = (BankClient) o;
-        return Objects.equals(getName(), that.getName()) &&
-                Objects.equals(getMoney(), that.getMoney());
+        return Objects.equals(getName(), that.getName());/* &&
+                Objects.equals(getMoney(), that.getMoney());*/
     }
 
     @Override

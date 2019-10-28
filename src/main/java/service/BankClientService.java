@@ -49,7 +49,9 @@ public class BankClientService {
     public boolean sendMoneyToClient(BankClient sender, String nameTo, Long value) throws SQLException {
         BankClientDAO dao = getBankClientDAO();
         String nameFrom = sender.getName();
-        if(dao.getClientByName(nameTo)==null) {return false;}
+        if (dao.getClientByName(nameTo) == null) {
+            return false;
+        }
         if (dao.isClientHasSum(sender.getName(), value)) {
             dao.updateClientsMoney(sender.getName(), -value);
             dao.updateClientsMoney(nameTo, value);

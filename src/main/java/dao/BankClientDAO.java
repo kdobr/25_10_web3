@@ -33,13 +33,14 @@ public class BankClientDAO {
                 client.getPassword() + "', '" + client.getMoney() + "')");
     }
 
-    public boolean deleteClient(String name)  {
+    public boolean deleteClient(String name) {
         try {
             executor.execUpdate("delete from bank_client where name = '" + name + "';");
             return true;
         } catch (SQLException e) {
             e.printStackTrace();
-        } return false;
+        }
+        return false;
     }
 
     public boolean validateClient(String name, String password) throws SQLException {
@@ -47,10 +48,8 @@ public class BankClientDAO {
     }
 
     public void updateClientsMoney(String name, Long transactValue) throws SQLException {
-        long newMoney = getClientByName(name).getMoney()+transactValue;
-    String sql = "update bank_client set money=? where name=?";
-//    executor.execUpdate("update bank_client set money=" + newMoney + " where name='" +
-//            name+"';");
+        long newMoney = getClientByName(name).getMoney() + transactValue;
+        String sql = "update bank_client set money=? where name=?";
         PreparedStatement stmt = connection.prepareStatement(sql);
         stmt.setLong(1, newMoney);
         stmt.setString(2, name);
@@ -59,7 +58,7 @@ public class BankClientDAO {
     }
 
     public BankClient getClientById(long id) throws SQLException {
-        if(id==-1) return null;
+        if (id == -1) return null;
         return executor.execQuery("select * from bank_client where id=" + id, result -> {
             result.next();
             return new BankClient(id, result.getString("name"),
@@ -74,9 +73,10 @@ public class BankClientDAO {
     public long getClientIdByName(String name) throws SQLException {
         return executor.execQuery("select * from bank_client where name='" + name + "'", result -> {
             if (result.next()) {
-            return result.getLong("id");
+                return result.getLong("id");
             }
-        return -1l;}  );
+            return -1l;
+        });
     }
 
     public BankClient getClientByName(String name) throws SQLException {

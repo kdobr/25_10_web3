@@ -1,6 +1,5 @@
 package servlet;
 
-import exception.DBException;
 import model.BankClient;
 import service.BankClientService;
 import util.PageGenerator;
@@ -10,7 +9,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -34,10 +32,14 @@ public class RegistrationServlet extends HttpServlet {
         Long money = Long.parseLong(req.getParameter("money"));
         try {
             BankClient tempClient = new BankClient(name, password, money);
-            if (bs.addClient(tempClient)) {
-                resultMap.put("message", "Add client successful");
-            } else {
+            if (bs.getClientByName(name) != null) {
                 resultMap.put("message", "Client not add");
+            } else {
+                if (bs.addClient(tempClient)) {
+                    resultMap.put("message", "Add client successful");
+                } else {
+                    resultMap.put("message", "Client not add");
+                }
             }
             resp.setContentType("text/html;charset=utf-8");
             resp.getWriter().println(PageGenerator.getInstance().getPage("resultPage.html", resultMap));

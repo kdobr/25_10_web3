@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa7a39cc-49be-465c-b61a-b54af8a170df" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0388b9aa-fcb8-4398-9d48-4656ca6c37de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0388b9aa-fcb8-4398-9d48-4656ca6c37de/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/def25132-0ee4-475f-a140-55931f143a7b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/def25132-0ee4-475f-a140-55931f143a7b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/BankClientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/BankClientDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/executor/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/executor/Executor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/executor/ResultHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/executor/ResultHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/BankClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/BankClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/RegistrationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/RegistrationServlet.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -239,7 +235,7 @@
       <workItem from="1572166307570" duration="10000" />
       <workItem from="1572195703121" duration="1890000" />
       <workItem from="1572247327862" duration="808000" />
-      <workItem from="1572267444765" duration="1099000" />
+      <workItem from="1572267444765" duration="3894000" />
     </task>
     <servers />
   </component>
